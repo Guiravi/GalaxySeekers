@@ -64,12 +64,12 @@
       <div class="container-fluid">
           <div class="row">
               <div class="col-2 columna-lateral">
-                  <div class="section-header" style="margin-bottom: 0; margin-top: 10px;">
+                  <div class="section-header header-columna-lat" style="">
                       <h2 style="color: #fff">Wavelengths</h2>
                   </div>
                   <br />
                   <div class="row no-gutters">
-                      <div class="col-8" id="wavebands">
+                      <div class="col-6" id="wavebands">
                           <h2>Gamma</h2>
                           <br />
                           <br />
@@ -90,10 +90,17 @@
                           <br />
                           <h2>Radio</h2>
                       </div>
-                      <div class="col-4">
+                      <div class="col-3">
                           <div class="text-center">
                               <input class="input-range" orient="vertical" type="range" step="1" value="4" min="1" max="7" style="height: 675px;">
                               <span class="range-value"></span>
+                          </div>
+                      </div>
+                      <div class="col-1">
+                      </div>
+                      <div class="col-2">
+                          <div class="text-center">
+                              <img src="{{url_for('static', filename = 'img/spectrum.png')}}" style="height: 675px;">
                           </div>
                       </div>
                   </div>                   
@@ -113,7 +120,7 @@
 
               </div>
               <div class="col-2 columna-lateral">
-                  <div class="section-header">
+                  <div class="section-header header-columna-lat">
                       <h2 style="color: #fff">What are you looking at?</h2>
                   </div>
               </div>

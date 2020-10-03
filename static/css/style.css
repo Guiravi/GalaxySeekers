@@ -1648,14 +1648,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 850px;
     border: solid 2px #f82249;
     background-color: #fff;
-    border-radius: 2%;
+    align-content: center;
 }
 
 .columna-lateral {
     color: #fff;
     border: solid 2px white;
     background-color: #151e3f;
-    border-radius: 2%;
+    border-radius: 5%;
+}
+
+.header-columna-lat {
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 
 
@@ -1669,7 +1674,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     -webkit-appearance: slider-vertical; /* WebKit */
 }
 
-/*Firefox Overrides*/ 
+/*Firefox Overrides*/
 ::-moz-range-track {
     background: #ccc;
     border: 0;

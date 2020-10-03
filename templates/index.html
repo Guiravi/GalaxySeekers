@@ -52,7 +52,7 @@
           <li class="menu-active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#speakers">Creators</a></li>
-          <li class="buy-tickets"><a href="tool.html">Start Seeking!</a></li>
+          <li class="buy-tickets"><a href="{{url_for('tool')}}">Start Seeking!</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -64,7 +64,7 @@
       <h1 class="mb-4 pb-0">Space & Telescope<br><span>Visualization</span> Tool</h1>
       <p class="mb-4 pb-0">Click the video below for a tutorial on how to use it</p>
       <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-      <a href="tool.html" class="about-btn scrollto" style="font-size: 50px;">Start Seeking!</a>
+      <a href="{{url_for('tool')}}" class="about-btn scrollto" style="font-size: 50px;">Start Seeking!</a>
     </div>
   </section><!-- End Intro Section -->
 
@@ -124,7 +124,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="{{url_for('static', filename = 'img/speakers/4.jpg'}}" alt="Speaker 4" class="img-fluid">
+              <img src="{{url_for('static', filename = 'img/speakers/4.jpg')}}" alt="Speaker 4" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
                 <p>Debitis iure vero</p>
@@ -185,7 +185,7 @@
   <script src="{{url_for('static', filename = 'vendor/owl.carousel/owl.carousel.min.js')}}"></script>
   <script src="{{url_for('static', filename = 'vendor/superfish/superfish.min.js')}}"></script>
   <script src="{{url_for('static', filename = 'vendor/hoverIntent/hoverIntent.js')}}"></script>
-  <script src="{{url_for('static', filename = 'vendor/aos/aos.js"></script>
+  <script src="{{url_for('static', filename = 'vendor/aos/aos.js')}}"></script>
 
   <!-- Template Main JS File -->
   <script src="{{url_for('static', filename = 'js/main.js')}}"></script>

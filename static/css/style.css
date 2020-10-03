@@ -96,14 +96,14 @@ h1, h2, h3, h4, h5, h6 {
 .section-header {
   margin-bottom: 60px;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .section-header::before {
   content: '';
   position: absolute;
   display: block;
-  width: 75px;
+  width: 60px;
   height: 5px;
   background: #f82249;
   bottom: 0;
@@ -1648,19 +1648,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 850px;
     border: solid 2px #f82249;
     background-color: #fff;
-    align-content: center;
+    border-radius: 2%;
 }
 
 .columna-lateral {
     color: #fff;
     border: solid 2px white;
     background-color: #151e3f;
-    border-radius: 5%;    
-}
-
-.header-columna-lat {
-    margin-bottom: 0;
-    margin-top: 10px;
+    border-radius: 2%;
 }
 
 

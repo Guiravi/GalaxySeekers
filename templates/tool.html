@@ -159,7 +159,7 @@
 
             function addFITSImagesToAladin(link_list) {
                 for (let i = 0; i < link_list.length; i++) {
-                    let img = link_list[i].replace('\n', '');
+                    let img = 'https://cors-anywhere.herokuapp.com/' + link_list[i].replace('\n', '');
                     aladin.displayFITS(img);
                 }
             }

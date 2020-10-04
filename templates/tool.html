@@ -43,14 +43,14 @@
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#intro">The<span>Event</span></a></h1>-->
-        <a href="index.html" class="scrollto"><img src="{{url_for('static', filename = 'img/logo.png')}}" alt="Galaxy Seeker" title=""></a>
+        <a href="{{url_for('index')}}" class="scrollto"><img src="{{url_for('static', filename = 'img/logo.png')}}" alt="Galaxy Seeker" title=""></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
             <li class="menu-active"><a href="{{url_for('index')}}">Home</a></li>
-            <li><a href="{{url_for('index')}} #about">About</a></li>
-            <li><a href="{{url_for('index')}} #speakers">Creators</a></li>
+            <li><a href="{{url_for('index')}}">About</a></li>
+            <li><a href="{{url_for('index')}}">Creators</a></li>
             <li class="buy-tickets"><a href="{{url_for('tool')}}">Start Seeking!</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->

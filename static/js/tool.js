@@ -2,6 +2,6 @@ var aladin = A.aladin('#aladin-lite-div', { fov: 180, cooFrame: 'galactic', targ
 
 aladin.showLayersControl = false;
 
-var cat = A.catalog({ name: 'Nicer', sourceSize: 1 });
+var cat = A.catalog({ name: 'CURRENT', sourceSize: 1 });
 aladin.addCatalog(cat);
-cat.addSources([A.marker(69.297, -47.273, { popupTitle: 'NICER', popupDesc: 'Neutron Star Interior Composition Explorer<br/>Currenty pointing<br/>Target ID: 11<br/>Target Name: PSR_J0437-4715_opt1' })]);
+cat.addSources([A.marker(208.474, 53.997, { popupTitle: 'NICER', popupDesc: 'Neutron Star Interior Composition Explorer<br/>Target ID: 5165<br/>Target Name: AT2020ocn' })]);

@@ -96,14 +96,14 @@ h1, h2, h3, h4, h5, h6 {
 .section-header {
   margin-bottom: 60px;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .section-header::before {
   content: '';
   position: absolute;
   display: block;
-  width: 60px;
+  width: 75px;
   height: 5px;
   background: #f82249;
   bottom: 0;

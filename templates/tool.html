@@ -48,10 +48,10 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-            <li class="menu-active"><a href="index.html">Home</a></li>
-            <li><a href="index.html #about">About</a></li>
-            <li><a href="index.html #speakers">Creators</a></li>
-            <li class="buy-tickets"><a href="tool.html">Start Seeking!</a></li>
+            <li class="menu-active"><a href="{{url_for('index')}}">Home</a></li>
+            <li><a href="{{url_for('index #about')}}">About</a></li>
+            <li><a href="{{url_for('index #speakers')}}">Creators</a></li>
+            <li class="buy-tickets"><a href="{{url_for('tool')}}">Start Seeking!</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>

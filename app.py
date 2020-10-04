@@ -14,7 +14,7 @@ def tool():
     #uv_images = readLinkFile('uv.txt')
     #infrared_images = readLinkFile('radio.txt')
 
-    return render_template('tool.html', , micro_imgs = microwave_images)
+    return render_template('tool.html', micro_imgs = microwave_images)
 
 def readLinkFile(filename):
     file = open(filename, 'r')

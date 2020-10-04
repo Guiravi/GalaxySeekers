@@ -17,9 +17,9 @@ def tool():
     return render_template('tool.html', micro_imgs = microwave_images)
 
 def readLinkFile(filename):
-    file = open(filename, 'r')
-    links = file.readlines()
-    file.close()
+	file = open(filename, 'r')
+	links = file.readlines()
+	file.close()
 
-    return links
+	return links
 

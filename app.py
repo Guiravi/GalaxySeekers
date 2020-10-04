@@ -7,4 +7,19 @@ def index():
 
 @app.route("/tool", methods = ['GET'])
 def tool():
-	return render_template('tool.html')
+    #radio_images = readLinkFile('radio.txt')
+    microwave_images = readLinkFile('millimeter.txt')
+    #optical_images = readLinkFile('optical.txt')
+    #infrared_images = readLinkFile('infrared.txt')
+    #uv_images = readLinkFile('uv.txt')
+    #infrared_images = readLinkFile('radio.txt')
+
+    return render_template('tool.html', , micro_imgs = microwave_images)
+
+def readLinkFile(filename):
+    file = open(filename, 'r')
+    links = file.readlines()
+    file.close()
+
+    return links
+

@@ -50,8 +50,8 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
             <li class="menu-active"><a href="{{url_for('index')}}">Home</a></li>
-            <li><a href="{{url_for('index')}}">About</a></li>
-            <li><a href="{{url_for('index')}}">Creators</a></li>
+            <li><a href="{{url_for('index')}} #about">About</a></li>
+            <li><a href="{{url_for('index')}} #speakers">Creators</a></li>
             <li class="buy-tickets"><a href="{{url_for('tool')}}">Start Seeking!</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -133,7 +133,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="{{url_for('static', filename = '/img/speakers/5.png')}}" alt="Speaker 5" class="img-fluid">
+              <img src="{{url_for('static', filename = 'img/speakers/5.png')}}" alt="Speaker 5" class="img-fluid">
               <div class="details">
                 <h3>Roy Rojas</h3>
                 <p>Computer Sciences</p>
@@ -142,7 +142,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="{{url_for('static', filename = '/img/speakers/6.jpg')}}" alt="Speaker 6" class="img-fluid">
+              <img src="{{url_for('static', filename = 'img/speakers/6.jpg')}}" alt="Speaker 6" class="img-fluid">
               <div class="details">
                 <h3>Carlos Ureña</h3>
                 <p>Computer Sciences</p>

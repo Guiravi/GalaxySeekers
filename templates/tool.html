@@ -159,7 +159,9 @@
 
             function addFITSImagesToAladin(link_list) {
                 for (let i = 0; i < link_list.length; i++) {
-                    aladin.displayFITS('https://skyview.gsfc.nasa.gov/tempspace/fits/' + link_list[i] + '.fits');
+                    let img_id = link_list[i].replace('\n', '');
+                    img_id = 'https://skyview.gsfc.nasa.gov/tempspace/fits/' + img_id + '.fits';
+                    aladin.displayFITS(img_id);
                 }
             }
 

@@ -119,7 +119,7 @@
                             </div>
                             <br />
                             <h3 style="color: white">Pick a date:</h3>
-                            <input type="date" class="text-center">
+                            <input type="date" class="text-center" placeholder="yyyy-mm-dd">
                             <br />
                             <br />
                             <p>Check what region of space the telescopes below were looking at on a given date.</p>
@@ -127,35 +127,35 @@
                             <br />
                             <h3 style="color: white">Filter telescopes:</h3>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item custom-checkbox">
+                                <li class="list-group-item custom-checkbox" style="background-color: #0b132b;">
                                     <!-- Default checked -->
                                     <div>
                                         <input type="checkbox" class="custom-control-input" id="check1" checked>
                                         <label class="custom-control-label" for="check1">SWIFT</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item custom-checkbox">
+                                <li class="list-group-item custom-checkbox" style="background-color: #0b132b;">
                                     <!-- Default checked -->
                                     <div>
                                         <input type="checkbox" class="custom-control-input" id="check2" checked>
                                         <label class="custom-control-label" for="check2">CHANDRA</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item custom-checkbox">
+                                <li class="list-group-item custom-checkbox" style="background-color: #0b132b;">
                                     <!-- Default checked -->
                                     <div>
                                         <input type="checkbox" class="custom-control-input" id="check3" checked>
                                         <label class="custom-control-label" for="check3">FERMI</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item custom-checkbox">
+                                <li class="list-group-item custom-checkbox" style="background-color: #0b132b;">
                                     <!-- Default checked -->
                                     <div>
                                         <input type="checkbox" class="custom-control-input" id="check4" checked>
                                         <label class="custom-control-label" for="check4">NICER</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item custom-checkbox">
+                                <li class="list-group-item custom-checkbox" style="background-color: #0b132b;">
                                     <!-- Default checked -->
                                     <div>
                                         <input type="checkbox" class="custom-control-input" id="check5" checked>
@@ -222,6 +222,7 @@
             var cat = A.catalog({name: 'Telescopes', sourceSize: 18});
             aladin.addCatalog(cat);
             cat.addSources([A.marker(208.474, 53.997, { popupTitle: 'NICER', popupDesc: 'Neutron Star Interior Composition Explorer<br/>Most recent position<br/>Target ID: 5165<br/>Target Name: AT2020ocn' })]);
+            cat.addSources([A.marker(30, 40, { popupTitle: 'CHANDRA', popupDesc: 'Chandra X-ray Observatory<br/>Target ID: 1350<br/>Target Name: XXXX' })]);
         </script>
     </body>
 </html>

@@ -90,7 +90,7 @@
                                 </div>
                                 <div class="col-3">
                                     <div class="text-center">
-                                        <input class="input-range" orient="vertical" type="range" step="1" value="4" min="1" max="7" style="height: 675px" />
+                                        <input class="input-range" orient="vertical" type="range" step="1" value="4" min="1" max="7" style="height: 675px" id="wave_slider"/>
                                         <span class="range-value"></span>
                                     </div>
                                 </div>
@@ -195,7 +195,16 @@
         <!-- Template Main JS File -->
         <script src="{{url_for('static', filename = 'js/main.js')}}"></script>
         <script>
-            var aladin = A.aladin('#aladin-lite-div', { fov: 180, cooFrame: 'galactic', target: 'galactic center', survey: 'P/XMM/PN/color', showLayersControl: false, reticleColor: "rgb(248, 34, 73)" });
+            var aladin = A.aladin('#aladin-lite-div', { fov: 180, cooFrame: 'galactic', target: 'galactic center', showLayersControl: false, reticleColor: "rgb(248, 34, 73)" });
+            let slider = document.getElementById('wave_slider');
+            let opt_imgs = {{ opt_imgs| safe }};
+            let micro_imgs = {{ micro_imgs| safe }};
+            let rad_imgs = {{ rad_imgs| safe }};
+            let infr_imgs = {{ infr_imgs| safe }};
+            let uv_imgs = {{ uv_imgs| safe }};
+            let gamma_imgs = {{ gamma_imgs| safe }};
+            let xr_imgs = {{ xr_imgs| safe }};
+
 
             function addFITSImagesToAladin(link_list) {
                 for (let i = 0; i < link_list.length; i++) {
@@ -204,13 +213,32 @@
                 }
             }
 
-            aladin.showLayersControl = false;
+            function change_waveband()
+            {
+                if (slider.value = 1) {
+                    addFITSImagesToAladin(rad_imgs);
+                } else if (slider.value = 2) {
+                    addFITSImagesToAladin(micro_imgs);
+                } else if (slider.value = 3) {
+                    addFITSImagesToAladin(infr_imgs);
+                } else if (slider.value = 4) {
+                    addFITSImagesToAladin(opt_imgs);
+                } else if (slider.value = 5) {
+                    addFITSImagesToAladin(uv_imgs);
+                } else if (slider.value = 6) {
+                    addFITSImagesToAladin(xr_imgs);
+                } else {
+                    addFITSImagesToAladin(gamma_imgs);
+                }
+            }
 
-            let micro_imgs = {{ micro_imgs|safe }};
+            aladin.showLayersControl = false;          
 
-            addFITSImagesToAladin(micro_imgs);
+            addFITSImagesToAladin(opt_imgs);
 
-            //let opt_imgs;
+            slider.addEventListener('change', change_waveband);
+
+            
 
             var cat = A.catalog({name: 'Telescopes', sourceSize: 18});
             aladin.addCatalog(cat);

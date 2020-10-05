@@ -1,0 +1,12 @@
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-40.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841668767&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-38.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841670419&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-36.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841759077&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-34.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841760866&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-32.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841675736&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-30.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841764391&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-28.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841765971&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-26.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841681418&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-24.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841683250&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-22.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841771951&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-20.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841686764&return=FITS
+https://skyview.gsfc.nasa.gov/cgi-bin/images?position=0.0%2C-18.0&survey=planck857i&pixels=300%2C300&sampler=LI&size=1.0%2C1.0&projection=Tan&coordinates=J2000.0&requestID=skv1601841775411&return=FITS

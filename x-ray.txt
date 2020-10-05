@@ -1,0 +1,9 @@
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao09/cat7/9191/primary/acisf09191N002_cntr_img2.fits
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat7/5699/primary/acisf05699N003_cntr_img2.fits
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao11/cat7/11490/primary/acisf11490N002_cntr_img2.fits
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat5/14894/primary/acisf14894N002_cntr_img2.fits
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao19/cat8/20515/primary/acisf20515N001_cntr_img2.fits
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat8/5818/primary/acisf05818N002_cntr_img2.fits
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao14/cat7/15577/primary/acisf15577N002_cntr_img2.fits
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao04/cat7/4104/primary/acisf04104N003_cntr_img2.fits
+https://cdaftp.cfa.harvard.edu/cgi-bin/chaser_ftp_retrieve_file.cgi?filename=science/ao06/cat8/5791/primary/acisf05791N003_cntr_img2.fits

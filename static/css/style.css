@@ -1004,4 +1004,13 @@ input::-moz-focus-inner {
     text-align: right;
 }
 
+.custom-checkbox {
+    background-color: #001d3d;
+}
+
+.custom-checkbox label {
+    font-size: 20px;
+    color: #fff;
+}
+
 

@@ -15,7 +15,7 @@ def tool():
     gammar_images = readLinkFile('gamma-ray.txt')
     xray_images = readLinkFile('x-ray.txt')
 
-    return render_template('tool.html', micro_imgs = microwave_images, rad_imgs = radio_images, opt_images = optical_images, infr_images = infrared_images, uv_images = ultrav_images, gamma_images = gammar_images, xr_images = xray_images)
+    return render_template('tool.html', micro_imgs = microwave_images, rad_imgs = radio_images, opt_imgs = optical_images, infr_imgs = infrared_images, uv_imgs = ultrav_images, gamma_imgs = gammar_images, xr_imgs = xray_images)
 
 def readLinkFile(filename):
 	file = open(filename, 'r')

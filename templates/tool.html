@@ -155,13 +155,6 @@
                                         <label class="custom-control-label" for="check4">NICER</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item custom-checkbox" style="background-color: #0b132b;">
-                                    <!-- Default checked -->
-                                    <div>
-                                        <input type="checkbox" class="custom-control-input" id="check5" checked>
-                                        <label class="custom-control-label" for="check5">ROSAT</label>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -223,6 +216,8 @@
             aladin.addCatalog(cat);
             cat.addSources([A.marker(208.474, 53.997, { popupTitle: 'NICER', popupDesc: 'Neutron Star Interior Composition Explorer<br/>Most recent position<br/>Target ID: 5165<br/>Target Name: AT2020ocn' })]);
             cat.addSources([A.marker(30, 40, { popupTitle: 'CHANDRA', popupDesc: 'Chandra X-ray Observatory<br/>Target ID: 1350<br/>Target Name: XXXX' })]);
+            cat.addSources([A.marker(150, -40, { popupTitle: 'FERMI', popupDesc: 'Gamma-ray Space Telescope<br/>Target ID: 233<br/>Target Name: XXXX' })]);
+            cat.addSources([A.marker(280, 60, { popupTitle: 'SWIFT', popupDesc: 'Neil Gehrels Swift Observatory<br/>Target ID: 2365<br/>Target Name: XXXX' })]);
         </script>
     </body>
 </html>

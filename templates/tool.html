@@ -197,13 +197,13 @@
         <script>
             var aladin = A.aladin('#aladin-lite-div', { fov: 180, cooFrame: 'galactic', target: 'galactic center', showLayersControl: false, reticleColor: "rgb(248, 34, 73)" });
             let slider = document.getElementById('wave_slider');
-            let opt_imgs = {{ opt_imgs| safe }};
-            let micro_imgs = {{ micro_imgs| safe }};
-            let rad_imgs = {{ rad_imgs| safe }};
-            let infr_imgs = {{ infr_imgs| safe }};
-            let uv_imgs = {{ uv_imgs| safe }};
-            let gamma_imgs = {{ gamma_imgs| safe }};
-            let xr_imgs = {{ xr_imgs| safe }};
+            let opt_imgs = {{ opt_imgs|safe }};
+            let micro_imgs = {{ micro_imgs|safe }};
+            let rad_imgs = {{ rad_imgs|safe }};
+            let infr_imgs = {{ infr_imgs|safe }};
+            let uv_imgs = {{ uv_imgs|safe }};
+            let gamma_imgs = {{ gamma_imgs|safe }};
+            let xr_imgs = {{ xr_imgs|safe }};
 
 
             function addFITSImagesToAladin(link_list) {
